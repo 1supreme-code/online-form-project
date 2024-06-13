@@ -45,12 +45,23 @@ fieldset {
   margin-bottom: 30px;
   border: none;
 }
+.col-1 label {
+width: 20%;
+}
 #_name,
 #email,
 #phone,
 #street,
 #city,
-#state,
+#state  {
+  padding: 1% 0%;
+  width: 50%;
+
+}
 #zip {
+padding: 1% 0%;
+width: 16%;
+}
+.newsletter {
 
 }
