@@ -126,10 +126,12 @@ border-style: none;
   display: flex;
   flex-direction: column;
   padding: 10px 0px;
-  width: 200%;
+  
 
 }
-
+.col-1 label {
+width: 100%;
+} 
 
 
 
