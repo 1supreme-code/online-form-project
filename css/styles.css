@@ -50,7 +50,7 @@
 }
 .col-1 {
 display: flex;
-flex-direction: row;
+flex-direction: column;
 padding: 10px 0px;
 
 
@@ -70,7 +70,7 @@ width: 20%;
 #city,
 #state  {
   padding: 1% 0%;
-  width: 50%;
+
 
 }
 #zip {
@@ -111,62 +111,10 @@ border-style: none;
 
 
 
-@media (min-width: 320px) { 
-.sub-title {
-  display: flex;
-  justify-content: center;
-  padding-top: 0px;
-}
-.p-1 {
-  text-align: center;
-  padding: 1px 13px;
-
-}
-.col-1  {
-  display: flex;
-  flex-direction: column;
-  padding: 10px 0px;
-  
-
-}
-.col-1 label {
-width: 100%;
-} 
-
-
-
-
-
-}
 
 @media (min-width: 768px) {
 
-  .main-title {
-    font-family: "Playfair Display", serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-    display: flex;
-    justify-content: center;
-    background-color: #2c314d;
-    color: white;
-    font-size: 8px;
-    padding-bottom: 12px;
-    padding-top: 12px;
-  }
-  .sub-title {
-    font-size: 20px;
-    padding-top: 20px;
-  
-  
-  }
-  .title {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .container {
+ .container {
     margin: 10px;
       padding: 10px;
       width: 100%;
@@ -174,32 +122,14 @@ width: 100%;
       margin: auto;
   }
   
-  
-  .hr-1 {
-    border-style: solid;
-    padding-bottom: 2px;
-    border-top-width: thick;
-  }
-  .hr-2 {
-    border-style:solid;
-    border-width: thin;
-  }
   .col-1 {
   display: flex;
   flex-direction: row;
   padding: 10px 0px;
   width: 100%;
+  }
+
   
-  
-  }
-  fieldset {
-    margin-top: 30px;
-    margin-bottom: 30px;
-    border: none;
-  }
-  .col-1 label {
-  width: 20%;
-  }
   #_name,
   #email,
   #phone,
@@ -207,57 +137,14 @@ width: 100%;
   #city,
   #state  {
     padding: 1% 0%;
-    width: 50%;
-  
+    width: 100%;
   }
-  #zip {
-  padding: 1% 0%;
-  width: 16%;
-  }
+ 
   .col-2 {
     display: flex;
     flex-direction: row;
     padding-bottom: 10px;
   }
-  .col-2 label {
-    padding-left: 9px;
-  }
-  p {
-    padding-bottom: 20px;
   
-  }
-  textarea {
-    height: 70px;
-    width: 70%;
-  
-  }
-  button {
-    height: 70px;
-    width: 70%;
-  
-  }
-  input::placeholder {
-  text-align: right;
-  
-  }
-  .button {
-  color: white;
-  background-color: rgb(32, 177, 97);
-  border-style: none;
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }
