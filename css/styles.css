@@ -18,11 +18,11 @@
 }
 .sub-title {
   font-size: 20px;
-  padding-bottom: 5px;
+  padding: 15px 1px 1px 1px;
 }
 
 .p-1 {
-  padding-bottom: 20px;
+  padding: 0 20px 25px 20px;
   text-align: center;
 }
 .div-1 {
@@ -118,7 +118,8 @@ background-color: cadetblue;
 }
 input::placeholder {
 text-align: right;
-
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+padding-right: 10px;
 }
 .button {
   height: 70px;
@@ -135,7 +136,9 @@ padding-top: 20px;
 font-family: "Playfair Display", serif;
 font-style: normal;
 }
-
+#choose {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+}
 
 /*tablet layout 768*/
 
