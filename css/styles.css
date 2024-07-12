@@ -136,8 +136,9 @@ padding-top: 20px;
 font-family: "Playfair Display", serif;
 font-style: normal;
 }
-#choose {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+select {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: rgb(241, 241, 241);
 }
 
 /*tablet layout 768*/
